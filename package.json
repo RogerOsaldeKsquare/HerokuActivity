@@ -15,8 +15,6 @@
     "npm-git-install": "^0.3.0",
     "uuid": "^8.3.1"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "description": ""
 }
