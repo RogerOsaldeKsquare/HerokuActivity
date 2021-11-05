@@ -3,9 +3,9 @@ const express = require('express');
 const router = express.Router();
 
 // Resources
-const { BookResources } = require('../resources');
+const { ActivityResources } = require('../resources');
 
 // All routes
-router.use('/books', BookResources);
+router.use('/activities', ActivityResources);
 
 module.exports = router;

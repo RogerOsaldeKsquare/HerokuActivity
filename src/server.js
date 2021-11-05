@@ -13,12 +13,12 @@ app.use(express.json());
 app.use(routes);
 app.use((req, res) => {
   res.status(404).json({
-    message: 'Ups!!! Resource not found1.',
+    message: 'Ups!!! Resource not found.',
   });
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Books app listening at http://localhost:${PORT}`)
+  console.log(`Activities app listening at http://localhost:${PORT}`)
 });
 

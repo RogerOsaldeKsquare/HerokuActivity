@@ -1,5 +1,5 @@
-const BookResources = require('./bookResources');
+const ActivityResources = require('./activityResources');
 
 module.exports = {
-  BookResources,
+  ActivityResources,
 };

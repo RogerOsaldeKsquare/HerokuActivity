@@ -1,5 +1,5 @@
-const BookControllers = require('./bookControllers');
+const ActivityControllers = require('./activityControllers');
 
 module.exports = {
-  BookControllers,
+  ActivityControllers,
 };

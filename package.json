@@ -1,9 +1,9 @@
 {
-  "name": "bookapp",
+  "name": "activityapp",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/server.js"
   },

@@ -1,5 +1,5 @@
-const Book = require('./Book');
+const Activity = require('./Activity');
 
 module.exports = {
-  Book,
+  Activity,
 };
